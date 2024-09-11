@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.kolala.deepslategen.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LavaFluidMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

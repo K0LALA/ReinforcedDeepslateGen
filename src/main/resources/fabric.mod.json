@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "deepslategen",
+  "version": "1.0.0",
+  "name": "DeepslateGenerator",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/deepslategen/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.kolala.deepslategen.DeepslateGenerator"
+    ]
+  },
+  "mixins": [
+    "deepslategen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
